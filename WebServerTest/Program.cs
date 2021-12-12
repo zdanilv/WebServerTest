@@ -12,6 +12,7 @@ namespace WebServerTest
         {
             WebSocketServer webSocketServer = new WebSocketServer();
             webSocketServer.Start("http://localhost:80/Web/");
+
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
         }
